@@ -1,0 +1,67 @@
+.footer{
+  height: 80px;
+  padding-left: 10vw;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+.main-block{
+  padding-left: 10vw;
+  padding-top: 40px;
+  display:flex;
+  justify-content: start;
+}
+.main-block_cities{
+  width: 20%;
+  padding-right: 20px;
+}
+.info-text{
+  font-size: 18px;
+  color: #696868;
+  margin-top: 0
+}
+h2{
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+#overlay{
+  z-index: 999999;
+  position: fixed;
+  top:0;
+  width: 100vw;
+  height: 100vh;
+  background: black;
+  opacity: 0.5;
+  padding: 30% 0 0 0;
+}
+.submit-message{
+  color: #FFFFFF;
+  margin: 20px 0 0 0;
+  padding-left: 45%
+}
+.spinner-span-block{
+  padding-left: 47%;
+  display: flex;
+}
+:host {
+  ::ng-deep .p-listbox .p-listbox-list {
+      padding: 0;
+  }
+  ::ng-deep .p-listbox{
+    border: 0
+  }
+  ::ng-deep .p-listbox:not(.p-disabled) .p-listbox-item:not(.p-highlight):not(.p-disabled):hover {
+    color: #FFFFFF;
+    background: #f579a2;
+  }
+  ::ng-deep .p-listbox .p-listbox-list .p-listbox-item.p-highlight {
+    color: #ffffff;
+    background: #f61f58;
+  }
+  ::ng-deep .p-listbox .p-listbox-list .p-listbox-item:focus {
+    box-shadow: inset 0 0 0 0 rgb(38 143 255 / 100%);
+  }
+  ::ng-deep .p-listbox .p-listbox-list .p-listbox-item {
+    border-radius: 16px;
+  }
+}
